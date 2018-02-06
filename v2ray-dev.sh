@@ -102,7 +102,8 @@ Status(){
 service v2ray status
 }
  
- Set_iptables(){}
+Set_iptables(){
+}
 
 Get_ip(){
 Ip=$( curl ipinfo.io | jq -r '.ip' )
