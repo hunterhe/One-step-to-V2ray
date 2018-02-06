@@ -103,7 +103,6 @@ service v2ray status
 }
  
  Set_iptables(){
-
 }
 
 Get_ip(){
